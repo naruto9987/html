@@ -1,67 +1,10 @@
-.pimg1,
-.pimg2,
-.pimg3 {
-    position: relative;
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-height: 100vh;
-    /* fallback default */
-}
-
-.pimg3 {
-    background-image: url('GIRL.jpeg');
-    min-height: 400px;
-}
-
-/* Section styling */
-section {
+.footer  {
+    position:fixed;
+    left:0 ;
+    bottom:0 ;
+    width: 100%; 
+    background-color: black;
+    color:white ;
     text-align: center;
-    padding: 58px 88px;
-}
-
-.section-light {
-    background-color: #f4f4f4;
-    color: #666;
-}
-
-.section-dark {
-    background-color: #282e34;
-    color: #ddd;
-}
-
-/* Text overlay styling */
-.ptext {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #eee;
-    font-size: 27px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    transform: translateY(-50%);
-}
-
-/* Bordered text */
-.ptext .border {
-    background-color: #111;
-    color: #fff;
-    padding: 20px;
-}
-
-.ptext .bordertrans {
-    background-color: transparent;
-}
-
-/* Responsive background attachment */
-@media (max-width: 568px) {
-
-    .pimg1,
-    .pimg2,
-    .pimg3 {
-        background-attachment: scroll;
-    }
+    padding: 10px 0;
 }
